@@ -1,0 +1,180 @@
+.all {
+    background-color: rgba(254, 94, 96, 255);
+    border-radius: 0 0 0 40px;
+    padding: 20px 80px;
+    margin: 0;
+    background-image: url('../images/bg-pattern-intro-desktop.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.turn1 .Parrow {
+    transform: rotateZ(-180deg);
+}
+
+.turn2 .Carrow {
+    transform: rotateZ(-180deg);
+}
+
+.turn3 .Oarrow {
+    transform: rotateZ(-180deg);
+}
+
+.left {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar1 {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.navbar1 ul {
+    display: none;
+    list-style-type: none;
+    background-color: silver;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.navbar1 ul a {
+    text-decoration: none;
+    color: #e46f76;
+    cursor: pointer;
+}
+
+.navbar1 ul a:hover {
+    color: black;
+}
+
+.Parrow:hover .navbar1 ul li {
+    display: block;
+}
+
+.closenavi {
+    display: none;
+}
+
+.logins img {
+    display: none;
+}
+
+.logins button:nth-child(1) {
+    outline: none;
+    border: none;
+    color: black;
+    background-color: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.logins button:nth-child(2) {
+    border: none;
+    border-radius: 10px;
+    color: #e46f76;
+    padding: 1px 5px;
+    cursor: pointer;
+}
+
+.logins button:nth-child(2):hover {
+    color: antiquewhite;
+    background-color: #e46f76;
+}
+
+.start {
+    margin-top: 20px;
+}
+
+.start a:nth-child(1) {
+    text-decoration: none;
+    background-color: white;
+    color: rgba(237, 134, 141, 255);
+    padding: 1px;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.start a:nth-child(2) {
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.start a:nth-child(1):hover {
+    background-color: transparent;
+    color: whitesmoke;
+    background-color: #e46f76;
+}
+
+.start a:nth-child(2):hover {
+    background-color: white;
+    color: #e46f76;
+}
+
+@media only screen and (max-width:768px) {
+    .all {
+        background-color: rgba(254, 94, 96, 255);
+        border-radius: 0 0 0 40px;
+        padding: 20px 80px;
+        margin: 0;
+        background-image: url('../images/bg-pattern-intro-mobile.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .navbar1 {
+        display: block;
+        position: absolute;
+        right: -100px;
+    }
+
+    .navbar1 img {
+        display: block;
+    }
+
+    .logins img {
+        display: block;
+        cursor: pointer;
+    }
+
+    .logins button {
+        display: none;
+    }
+
+    .navshow .all {
+        background-color: black;
+    }
+
+    .navshow .navbar1 {
+        display: block;
+        position: absolute;
+        right: 10px;
+        background-color: silver;
+        border-radius: 10px;
+        padding: 30px 20px;
+        top: 0px;
+    }
+
+    .hidenav .navbar1 {
+        display: block;
+        position: absolute;
+        right: -100px;
+    }
+}

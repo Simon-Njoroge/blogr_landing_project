@@ -1,0 +1,65 @@
+.footer {
+    display: flex;
+    background-color: rgba(36, 36, 44, 255);
+    margin: 0;
+    justify-content: space-between;
+    padding: 10px 100px;
+    border-radius: 0px 50px 0 0;
+    padding: 20px 80px;
+}
+
+.product h5 {
+    margin-bottom: 20px;
+}
+
+.product a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.Company h5 {
+    margin-bottom: 20px;
+}
+
+.Company a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px
+}
+
+.Connect h5 {
+    margin-bottom: 20px;
+}
+
+.Connect a {
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: block;
+    }
+
+    .log img {
+        margin-bottom: 40px;
+    }
+
+    .product {
+        margin-bottom: 20px;
+    }
+
+    .Company {
+        margin-bottom: 20px;
+    }
+
+    .Connect {
+        margin-bottom: 20px;
+    }
+}

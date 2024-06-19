@@ -1,0 +1,45 @@
+.phonedata {
+
+    display: flex;
+    margin: 5% 0;
+    background-color: #3c3f60;
+    border-radius: 0px 200px;
+    height: 50%;
+    padding: 20px 80px;
+    justify-content: space-between;
+    background-image: url('../images/bg-pattern-circles.svg');
+    background-position: left;
+    background-size: 20%;
+    background-repeat: no-repeat;
+}
+
+.phone img {
+    position: relative;
+    top: -50px;
+    bottom: -120px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.data {
+    align-content: center;
+    width: 50%;
+}
+
+.data p {
+    color: aliceblue;
+}
+
+@media only screen and (max-width:768px) {
+    .phonedata {
+        display: block;
+        background-position: top;
+        background-size: 70%;
+    }
+
+    .data {
+        width: 100%;
+    }
+}

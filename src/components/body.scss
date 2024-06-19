@@ -1,0 +1,56 @@
+.whole {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px 80px;
+    color: black;
+    background-image: url('../images/illustration-editor-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 820px;
+    background-size: 600px;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.data1 {
+    width: 50%;
+}
+
+.data1 h4 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.data1 p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.image img {
+    text-align: right;
+
+}
+
+@media only screen and (max-width:768px) {
+    .whole {
+        display: block;
+        justify-content: space-between;
+        margin-left: 80px;
+        padding: 10px 10px;
+        color: black;
+        background-image: url('../images/illustration-editor-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 300px;
+    }
+
+    .data1 {
+        margin-top: 300px;
+        text-align: center;
+    }
+}

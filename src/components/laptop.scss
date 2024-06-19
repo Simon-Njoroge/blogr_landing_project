@@ -1,0 +1,42 @@
+.laptops {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding: 20px 0px;
+    color: black;
+    background-image: url('../images/illustration-laptop-desktop.svg');
+    background-position: -170px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    margin-bottom: 30px;
+}
+
+.laptop img {
+    width: 500px;
+    margin-left: 0%;
+}
+
+.lapdata {
+    width: 50%;
+    padding-right: 80px;
+}
+
+@media only screen and (max-width:768px) {
+    .laptops {
+        display: block;
+        justify-content: space-between;
+        padding: 20px 0px;
+        color: black;
+        background-image: url('../images/illustration-laptop-mobile.svg');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 350px;
+    }
+
+    .lapdata {
+
+        width: 100%;
+        margin-top: 250px;
+        margin-left: 10px;
+    }
+}
