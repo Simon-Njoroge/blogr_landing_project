@@ -41,5 +41,13 @@ h2 {
 
     .data {
         width: 100%;
+        position: relative;
+        top: -70px;
+    }
+    .phone img {
+        position: relative;
+        top: -100px;
+        bottom: -120px;
+        margin-top: 40px;
     }
 }
