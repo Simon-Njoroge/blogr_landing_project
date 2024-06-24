@@ -39,18 +39,19 @@ h3 {
 @media only screen and (max-width:768px) {
     .whole {
         display: block;
-        justify-content: space-between;
-        margin-left: 80px;
+        text-align: center;
         padding: 10px 10px;
         color: black;
         background-image: url('../images/illustration-editor-mobile.svg');
         background-repeat: no-repeat;
         background-position: top;
         background-size: 300px;
+        width: 100%;
     }
 
     .data1 {
         margin-top: 300px;
         text-align: center;
+        width: 100%;
     }
 }
